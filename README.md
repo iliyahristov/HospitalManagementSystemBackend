@@ -1,5 +1,5 @@
 # HospitalManagementSystem
-Course Project for UNI Paisi Hilendarski Plovdiv 
+This project was written as a course work by Ilija Hristov, major STD, 2nd year, course "Event Programming", at Plovdiv University "Paisii Hilendarski"
 # Backend API
 
 ## Description
