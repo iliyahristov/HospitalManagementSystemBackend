@@ -1,0 +1,262 @@
+{
+	"info": {
+		"_postman_id": "f85eb693-f109-47f0-81db-5da9063cbb3d",
+		"name": "C# Web APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37566466"
+	},
+	"item": [
+		{
+			"name": "Doctors API",
+			"item": [
+				{
+					"name": "Get Doctors List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Doctors",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Doctors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Doctor by DoctorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Doctors/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Doctors",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Doctor",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstName\": \"Илия\",\n    \"lastName\": \"Христов\",\n    \"specialization\": \"Психолог\",\n    \"contactNumber\": \"0899234446\",\n    \"email\": \"iliya.hristov@hospital.bg\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Doctors",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Doctors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Doctor",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"doctorID\": 12,\n    \"firstName\": \"Илия\",\n    \"lastName\": \"Христов\",\n    \"specialization\": \"Психолог\",\n    \"contactNumber\": \"0896677656\",\n    \"email\": \"iliya.hristov@hospital.bg\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Doctors/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Doctors",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Doctor",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Doctors/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Doctors",
+								"11"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Patients API",
+			"item": [
+				{
+					"name": "Get Patients List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Patients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Patients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Patient by PatientId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Patients/21",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Patients",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Patient",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstName\": \"Илия\",\n    \"lastName\": \"Христов\",\n    \"dateOfBirth\": \"1986-08-27T00:00:00\",\n    \"gender\": \"Мъж\",\n    \"contactNumber\": \"0896677656\",\n    \"address\": \"ул. Витошка 65, София\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Patients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Patients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Patient",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"patientID\": 21,\n    \"firstName\": \"Илия\",\n    \"lastName\": \"Христов\",\n    \"dateOfBirth\": \"1986-08-27T00:00:00\",\n    \"gender\": \"Мъж\",\n    \"contactNumber\": \"0896677656\",\n    \"address\": \"ул. Витошка 65, София\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Patients/21",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Patients",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Patient",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Patients/21",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Patients",
+								"21"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
