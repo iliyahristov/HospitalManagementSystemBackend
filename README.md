@@ -1,9 +1,9 @@
 # HospitalManagementSystem
 This project was written as a course work by Ilija Hristov, major STD, 2nd year, course "Event Programming", at Plovdiv University "Paisii Hilendarski"
-# Backend API
 
 ## Description
 A Web API built with ASP.NET Core for managing medical entities like doctors, patients, examinations, and medical specialties.
+This backend is part of a project with frontend, that can be found here : https://github.com/iliyahristov/HospitalManagementSystemFrontend
 
 ## Features
 - RESTful API
