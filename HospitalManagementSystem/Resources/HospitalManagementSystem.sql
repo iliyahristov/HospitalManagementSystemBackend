@@ -50,16 +50,16 @@ CREATE TABLE DoctorSpecialties
 );
 
 INSERT INTO Doctors (FirstName, LastName, Specialization, ContactNumber, Email)
-VALUES ('Иван', 'Петров', 'Кардиолог', '0888123456', 'ivan.petrov@hospital.bg'),
-       ('Мария', 'Иванова', 'Педиатър', '0899234567', 'maria.ivanova@hospital.bg'),
-       ('Георги', 'Стефанов', 'Хирург', '0877345678', 'georgi.stefanov@hospital.bg'),
-       ('Анна', 'Николова', 'Невролог', '0889456789', 'anna.nikolova@hospital.bg'),
-       ('Петър', 'Димитров', 'Ортопед', '0878567890', 'petar.dimitrov@hospital.bg'),
-       ('Елена', 'Колева', 'Ендокринолог', '0886678901', 'elena.koleva@hospital.bg'),
-       ('Христо', 'Тодоров', 'Психиатър', '0899789012', 'hristo.todorov@hospital.bg'),
-       ('Таня', 'Попова', 'Акушер-гинеколог', '0887890123', 'tanya.popova@hospital.bg'),
-       ('Стефан', 'Маринов', 'Онколог', '0888901234', 'stefan.marinov@hospital.bg'),
-       ('Радка', 'Герасимова', 'Пулмолог', '0876012345', 'radka.gerasimova@hospital.bg');
+VALUES ('Иван', 'Петров', 'Кардиология', '0888123456', 'ivan.petrov@hospital.bg'),
+       ('Мария', 'Иванова', 'Педиатрия', '0899234567', 'maria.ivanova@hospital.bg'),
+       ('Георги', 'Стефанов', 'Педиатрия', '0877345678', 'georgi.stefanov@hospital.bg'),
+       ('Анна', 'Николова', 'Неврология', '0889456789', 'anna.nikolova@hospital.bg'),
+       ('Петър', 'Димитров', 'Ортопедия', '0878567890', 'petar.dimitrov@hospital.bg'),
+       ('Елена', 'Колева', 'Ендокринология', '0886678901', 'elena.koleva@hospital.bg'),
+       ('Христо', 'Тодоров', 'Психиатрия', '0899789012', 'hristo.todorov@hospital.bg'),
+       ('Таня', 'Попова', 'Акушерство и гинекология', '0887890123', 'tanya.popova@hospital.bg'),
+       ('Стефан', 'Маринов', 'Онкология', '0888901234', 'stefan.marinov@hospital.bg'),
+       ('Радка', 'Герасимова', 'Пулмология', '0876012345', 'radka.gerasimova@hospital.bg');
 
 INSERT INTO Patients (FirstName, LastName, DateOfBirth, Gender, ContactNumber, Address)
 VALUES ('Боян', 'Иванов', '1985-03-15', 'Мъж', '0889123456', 'ул. Витошка 45, София'),
